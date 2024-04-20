@@ -41,7 +41,7 @@ const Signin = () => {
             Sign in with google.
           </div>
           <div className="font-extralight text-base md:text-4xl dark:text-neutral-200 py-4">
-            To experience unbiased factz.
+            To experience the NEWZ.
           </div>
           <button
             onClick={signIn}
