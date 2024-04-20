@@ -7,7 +7,7 @@ import { AuroraBackground } from "../components/ui/aurora-background";
 
 const Signin = () => {
   const [user, setUser] = useState<User | null>(null);
-
+  console.log(user);
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((user) => {
       setUser(user);
